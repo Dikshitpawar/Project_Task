@@ -1,0 +1,36 @@
+.brands {
+  overflow: hidden;
+  width: 100%; 
+padding: 50px 0;
+  background-color: rgb(238, 233, 233);
+  color: black;
+}
+
+.img-tracker {
+  display: flex;
+  width: calc(200px * 12);
+  animation: slide 24s steps(8) infinite; 
+}
+
+.logo {
+  width: 300px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}

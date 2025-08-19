@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+    padding: 10px 20px;
+    background: transparent;
+}
+/* .navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 15px 40px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0); /* transparent */
+
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 10px 20px;
+  position: fixed;   
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 10px 20px;
+  background: transparent;  
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+} */
+
+/* Scroll hone ke baad white ho jayega */
+.navbar.scrolled {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo img{
+    width: 280px;
+    height: 100px;
+    padding-left: 10px;
+}
+.navbar .nav-opt{
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.navbar .nav-opt .navlink {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.navbar .nav-opt .navlink:hover{
+    color: rgb(255, 174, 0);
+}
+.cart-logo{
+    font-size: 20px;
+    cursor: pointer;
+}
+.cart-logo:hover{
+    color: rgb(255, 174, 0);
+
+}

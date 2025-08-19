@@ -1,0 +1,76 @@
+.contact{
+    width: 100%; 
+}
+.contact .in{
+  width: 100%;
+    height: 500px;
+    background: url("../assets/footer/banner-1.jpg");
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0;
+    align-items: center;
+    gap: 20px;
+}
+.in h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.in h1{
+    font-size: 50px;
+}
+.in p{
+    width: 500px;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 18px;
+}
+.in button{
+    font-size: 18px;
+    padding: 6px 25px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+.in button:hover{
+   background: transparent;
+    color: red;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.footer h1{
+font-size: 30px;
+margin-bottom: 20px;
+}
+.footer p{
+    line-height: 1.6;
+    font-size: 17px;
+    text-align: center;
+}
+.f3 .cont{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    color: red;
+    font-weight: 800;
+}
+.f4 .social-icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.f4 .social-icons a{
+    color: black;
+}
+.down{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(244, 239, 239);    text-align: center;
+}
+.down p{
+    padding: 20px 0;
+}

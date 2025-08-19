@@ -1,0 +1,69 @@
+.header{
+    width: 100%;
+    display: flex;
+    color: white;
+    padding: 10px 20px;
+
+    
+    
+    /* position: inherit; */
+}
+/* .header .burger-img img{
+  position: absolute;
+  left:;
+} */
+
+.header .desc{
+    width: 30%;
+    margin-top:50px;
+    margin-left: 40px;
+}
+.header .desc h1{
+    font-size: 100px;
+    font-family: Cooper Black;
+}
+.header .desc h1 span{
+    margin-left: 90px;
+}
+.header .desc h2{
+    font-size: 40px;
+    margin-left: 80px;
+    font-family:Arial Black;
+}
+.header .desc p{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Bahnschrift;
+}
+.header .desc .order-btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: rgba(255, 213, 0, 0.762);
+    border-radius: 10px;
+    margin-left: 130px;
+    border: none;
+    font-family: Bahnschrift;
+}
+.burger-price{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    background: url("../assets/hero/price-badge-yellow.png") no-repeat center center;
+    background-size: contain; 
+    width: 200px; 
+    height: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.burger-price h3{
+    font-size: 30px;
+}  
+.burger-price h1{
+    font-size: 50px;
+}  

@@ -1,0 +1,21 @@
+.blog-section{
+    width: 100%;
+    display: flex;
+    background-color: rgb(244, 239, 239);
+    padding: 20px 10px;
+    gap: 20px;
+}
+.blog-section .blog{
+    padding-left: 20px;
+}
+.blog-section .blog-det h1{
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family:Berlin Sans FB Demi;
+}
+.blog-section .blog-det p{
+    font-size: 20px;
+    line-height: 1.4;
+    padding: 10px 0;
+}
