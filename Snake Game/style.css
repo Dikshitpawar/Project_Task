@@ -1,0 +1,102 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: gilroy;
+}
+html ,body {
+   height: 100%;
+   width: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+section{
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.infos{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.info{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.card{
+    border: 1px solid black;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(50px , 1fr));
+    grid-template-rows: repeat(auto-fill , minmax(50px , 1fr));
+}
+
+.block{
+    /* width: 30px;
+    height: 30px; */
+    border: 1px solid white;
+}
+
+.fill{
+    background-color: aqua;
+}
+
+.food{
+    background-color: red;
+}
+
+
+.modal , .re-modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #37373787;
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-game, .restart-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.restart-game{
+    margin-top:350px ;
+}
+.re-modal{
+    display: none;
+}
+
+.start-game h3 , .restart-game h3{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+
+.btn-start , .btn-restart{
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-start:hover{
+    transform: scale(1.1);
+}
